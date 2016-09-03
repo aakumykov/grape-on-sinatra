@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Форма изучения POST</title>
+	</head>
+	<body onLoad='document.form1.title.focus()'>
+		<fieldset>
+			<legend>POST</legend>
+			<form action='http://localhost:9292/items/new' method='POST' name='form1'>
+				<input type='text' name='title'/><br/>
+				<textarea name='content'></textarea><br/>
+				<input type='submit'/>
+			</form>
+		</fieldset>
+	</body>
+</html>
+
+
